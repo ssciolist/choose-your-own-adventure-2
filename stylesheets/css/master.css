@@ -1,0 +1,29 @@
+body {
+  font-family: "Ropa Sans";
+}
+
+a {
+  color: black;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-links {
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-color: black;
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+.logo {
+  height: 90px;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
