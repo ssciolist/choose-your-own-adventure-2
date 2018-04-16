@@ -8,22 +8,45 @@ a {
 
 nav {
   display: flex;
+  align-items: center;
+
+}
+
+.newsletter-box {
+  position: absolute;
+  width: 340px;
+  height: 450px;
+  top: 65%;
+
+  color: white;
+  background-color: black;
+}
+
+form {
+
 }
 
 .nav-links {
   font-size: 20px;
   font-weight: bolder;
   letter-spacing: 1px;
-  text-color: black;
   text-decoration: underline;
   text-decoration-color: green;
 }
 .logo {
   height: 90px;
+  position: relative
+  left: 30px;
 }
 
 aside {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: -1;
+}
+
+input[type=submit] {
+    background-color: #3CBC8D;
+    color: white;
 }
